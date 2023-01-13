@@ -17,7 +17,7 @@ TODO:
 - Ability to have more than one, and link the data to a central node
 
 Parts required:
-- The contents of the "STL" folder 3D printed in the material of your choice (PETG prefered)
+- The contents of the "STL" folder 3D printed in the material of your choice (PETG prefered, a soft TPE for the gaskets)
 - a 5010 radial fan (TBD: Add link to exact one)
 - a ultrasonic mister (TBD: Add link to exact one)
 - BME688
