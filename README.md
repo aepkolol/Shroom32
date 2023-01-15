@@ -52,6 +52,10 @@ Pinouts - You can wire this how you choose to, the pins are defined in the start
 - Fan
   - V+ - Output of potentiometer
   - V- - neg of 12v input (I soldered to the IN side of the buck)
+  
+Printing:
+- Gaskets - Use a soft TPE material. If you don't have the ability to print TPE, you can probably use hot glue or RTV or something. You may need to edit the CAD files to adjust the fit of the bottom lid since it takes into account the gaskets. 
+- Everything else - PETG is probably best. You do you though. 
 
 Building:
-TBD
+See the guide folder for basic building instructions
