@@ -26,6 +26,8 @@ Parts required:
 - Relay module
 - Buck converter
 - Potentiometer (if you want fan control) <- Not the best way to do this, but how I'm doing it for now.
+- 4x M3 heatset inserts
+- Countersunk M3 and M2.5 screws
 
 Pinouts - You can wire this how you choose to, the pins are defined in the start of main.cpp. This is how it is default. 
 - BME688
