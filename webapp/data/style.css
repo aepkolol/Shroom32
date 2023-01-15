@@ -1,0 +1,43 @@
+html {
+  font-family: Arial;
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  background-color: #142958!important;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #003366;
+  color: #FFD43B;
+  font-size: 1rem;
+}
+
+.content {
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
+}
+
+.card-title {
+  color: #003366;
+  font-weight: bold;
+}
+
+.cards {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
