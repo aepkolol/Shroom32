@@ -25,6 +25,31 @@ Parts required:
 - ESP32
 - Relay module
 - Buck converter
+- Potentiometer (if you want fan control) <- Not the best way to do this, but how I'm doing it for now.
+
+Pinouts - You can wire this how you choose to, the pins are defined in the start of main.cpp. This is how it is default. 
+- BME688
+  - SDA - GPIO_21
+  - SCL - GPIO_22
+  - GND - GND
+  - VCC - 3.3v/5v depending on sensor
+  
+- Relay 
+  - COM - 12v in
+  - NO - V+ to Ultrasonic mister and potentometer
+  - NC - Not connected 
+  - VCC - 5v from buck converter
+  - GND - out neg from buck
+  - TRIG - GPIO_16
+  
+- Water sensor 
+  - VCC - GPIO_27
+  - GND - GND of ESP32 or buck converter 
+  - SENSE - GPIO_34
+  
+- Fan
+  - V+ - Output of potentiometer
+  - V- - neg of 12v input (I soldered to the IN side of the buck)
 
 Building:
 TBD
