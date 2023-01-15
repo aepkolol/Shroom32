@@ -7,6 +7,8 @@ I'll give some basic building instructions, but at the moment this is a very rou
 
 Right now the water chamber is filled via a mountain dew bottle with a hole drilled into the cap where the water tube goes. I'll eventually make something nicer. The idea is to have water gravity fed via that tube and it should stop at the right water level as long as the tube is secured properly inside. 
 
+The webapp is also pretty rough at the moment while I add features to it. Its designed with Bootstrap5 and uses websockets to talk to the "server" to get sensor data. The data is graphed using charts.js. 
+
 The humidity is controlled by an ultrasonic mister bought off Amazon and a 5010 radial fan partially disasembled. (I may have stole this idea from the Voron 3D printer team). The monitoring is done mainly by a BME688 sensor. 
 Right now the main webpage displays the humidity, temperature, pressure and gas as a KOhm value. 
 It is possible to use the AI gas detection of the BME688 sensor, however I'm not entirely sure how to go about that. If someone smarter than me wants to figure that out, please do. Maybe a graph of CO2 in the fruiting chamber? Detection of unwanted bacteria growth? I dunno! It's over my head at the moment. 
@@ -19,6 +21,7 @@ It is possible to use the AI gas detection of the BME688 sensor, however I'm not
 - Some way to notify user of an alarm state (temp/humidity/water, etc)
 - Ability to have more than one, and link the data to a central node
 - Design a gravity fed water supply to the humidifier. 
+- Possibly slight redesigns to use an ESP32 cam module for real time viewing inside the fruiting chamber. 
 
 ## Parts required:
 - The contents of the "STL" folder 3D printed in the material of your choice (PETG prefered, a soft TPE for the gaskets)
